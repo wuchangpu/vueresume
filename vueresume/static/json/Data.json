@@ -1,0 +1,207 @@
+{
+	"chinese": {
+		"header": {
+			"msg1": "F2E",
+			"msg2": "Resume",
+			"msgOne": "前端工程师",
+			"msgTwo": "个人简历",
+			"navContent": ["首页","关于我","技能栈","经历","联系我"]
+		},
+		"pageOne": {
+			"mymotto": "生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵",
+			"myname": "我叫吴长谱",
+			"myage": "28岁",
+			"myprofession": "一名前端研发工程师",
+			"myemail": "wcpgryx@163.com",
+			"introduce": "您好，我叫吴长谱，28岁，坐标武汉。 我并不是计算机专业,但对前端很感兴趣，所以自学前端，今后的职业规划是朝着全栈发展。 在工作的这一年多以来,本人在公司主要负责整个页面的前端开发，配合后台人员实现产品前端界面效果与功能。"
+		},
+		"pageTwo": {
+			"title": "关于我",
+			"imgAlt": ["education", "age", "location", "status"],
+			"itemContent": [
+				"学历 / 大专",
+				"年龄 / 28",
+				"坐标 / 武汉",
+				"状态 / 离职"
+			],
+			"bodyContent": [
+				"熟悉MVVM开发,深谙自动化,模块化开发之道",
+				"高效的自学能力,具备独立分析解决问题能力",
+				"强烈的自我驱动力,代码强迫症患者",
+				"愿意接受公司加班、任务进度追紧等工作模式"
+			]
+		},
+		"pageThree": {
+			"title": "技能栈",
+			"skillGroupIn": ["HTML5","CSS3","JS"],
+			"skillGroupOut": ["es6","vue","sass","webpack","bootstrap","angular1"],
+			"paragraphOne": "熟悉Vue框架，vue-cli、vuex、vue-router等",
+			"paragraphTwo": "前端的学习需要持之以恒，知识深度与广度",
+			"paragraphThree": "重中之重就是原生javascript的理解",
+			"paragraphFour": "如今的思路必需有模块化，组件化，工程化"
+		},
+		"pageFour": {
+			"title": "经历",
+			"item": [
+				{
+					"title": "武汉神灯财富网络科技有限公司",
+					"time": "2017年9月~2018年4月",
+					"describe": [
+						"公司过往项目的维护",
+						"配合后端与UI完成新项目开发",
+						"项目主要为公司网站以及内部员工系统",
+						"依领导安排完成其他任务",
+						"同期工作之余开始系统性的自学web前端各项技术"
+					]
+				},
+				{
+					"title": "芜湖中海网络技术有限公司",
+					"time": "22017年3月~2017年8月",
+					"describe": [
+						"实习阶段",
+						"负责前端静态页面制作",
+						"简单的js交互",
+						"ps切图",
+						"利用HTML、CSS、JS书写前端功能"
+					]
+				},
+				{
+					"title": "安徽美芝精密制造有限公司",
+					"time": "2011年7月~2017年2月",
+					"describe": [
+						"(非IT行业)",
+						"生产车间自动化设备日点检、保养抽查",
+						"自动化生产设备故障维修、记录、反馈",
+						"新进生产设备安装调试，备件档案制定与管理",
+						"生产设备月度检修计划执行及日常杂消耗管理"
+					]
+				}
+			]
+		},
+		"pageFive": {
+			"title": "联系我",
+			"orientation": ["灵感","代码","梦想","未来"],
+			"paragraphs": [
+				"学习是一个充实愉悦的过程",
+				"喜欢尝试，期待新鲜事物",
+				"前端即兴趣，兴趣即未来",
+				"行路有良友，便是捷径",
+				"期待有机会与您共事！"
+			],
+			"imgAlt": [
+				"博客",
+				"思否",
+				"github",
+				"知乎",
+				"微博"
+			],
+			"modalTip": {
+				"body": "敬请期待",
+				"footer": "确定"
+			},
+			"rights": "© 版权所有"
+		}
+	},
+	"english": {
+		"header": {
+			"msg1": "F2E",
+			"msg2": "Resume",
+			"msgOne": "F2E",
+			"msgTwo": "Resume",
+			"navContent": ["Home","About","Skills","Exper","Contact"]
+		},
+		"pageOne": {
+			"mymotto": "Life is an endless longing, longing for ever-increasing, greater and noble",
+			"myname": "My name is Wuchangpu",
+			"myage": "28 years old ",
+			"myprofession": "A front-end engineer",
+			"myemail": "wcpgryx@163.com"
+		},
+		"pageTwo": {
+			"title": "About Me",
+			"imgAlt": ["education", "age", "location", "status"],
+			"itemContent": [
+				"Edu / academy",
+				"Age / 28",
+				"Location / wuhan",
+				"Status / leave"
+			],
+			"bodyContent": [
+				"Familiar with MVVM development, well versed in automation and modular development",
+				"Efficient self-learning ability, ability to analyze and solve problems independently",
+				"Strong self-driven, code obsessive-compulsive disorder",
+				"Willing to accept the company's overtime, task schedules and other work modes"
+			]
+		},
+		"pageThree": {
+			"title": "Skills",
+			"skillGroupIn": ["HTML5","CSS3","JS"],
+			"skillGroupOut": ["es6","vue","sass","webpack","bootstrap","angular1"],
+			"paragraphOne": "Familiar with Vue framework, vue-cli, vuex, vue-router etc",
+			"paragraphTwo": "Front-end learning needs perseverance, knowledge depth and breadth",
+			"paragraphThree": "The most important thing is the understanding of native javascript",
+			"paragraphFour": "Today's ideas must be modular, componentized and engineered"
+		},
+		"pageFour": {
+			"title": "EXPERIENCE",
+			"item": [
+				{
+					"title": "Wuhan Shendeng wealth Network Technology Co., Ltd",
+					"time": "2017/9~2018/4",
+					"describe": [
+						"Maintenance of the company's past projects",
+						"Complete the development of new project with back end and UI",
+						"The project is mainly for company website and internal staff system",
+						"Completing other tasks according to the leadership",
+						"After the same period of work, systematic self-learning web front-end technology has begun"
+					]
+				},
+				{
+					"title": "Wuhu Zhonghai Network Technology Co., Ltd",
+					"time": "22017/3~2017/8",
+					"describe": [
+						"Internship stage",
+						"Responsible for front-end static page making",
+						"PS cut diagram",
+						"Simple JS interaction",
+						"Writing front-end functions with HTML, CSS, and JS"
+					]
+				},
+				{
+					"title": "Anhui Meizhi Precision Manufacturing Co., Ltd",
+					"time": "2011/7~2017/2",
+					"describe": [
+						"(Non IT industry)",
+						"Production workshop automation equipment daily check and Maintenance spot check",
+						"Automatic production equipment troubleshooting, recording, feedback",
+						"New production equipment installation and debugging, spare parts file formulation and management",
+						"Production equipment monthly maintenance plan execution and daily miscellaneous consumption management"
+					]
+				}
+			]
+		},
+		"pageFive": {
+			"title": "Contact",
+			"orientation": ["INSPIRATION","CODE","DREAM","FUTURE"],
+			"paragraphs": [
+				"Learning is a full and joyful process",
+				"Like to try and look forward to new things",
+				"The front end is interest, interest is the future",
+				"There are good friends on the road，it's the shortcut",
+				"Looking forward to having the opportunity to work with you！"
+			],
+			"imgAlt": [
+				"blog",
+				"sf",
+				"github",
+				"zhihu",
+				"weibo"
+			],
+			"modalTip": {
+				"body": "Stay tuned",
+				"footer": "OK"
+			},
+			"rights": "© All Rights Reserved"
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"header":[
+		
+	],
+	"home":[
+		
+	],
+	"about":[
+		"./static/image/2-education.svg",
+		"/static/image/2-age.svg",
+		"static/image/2-location.svg",
+		"static/image/2-status.svg"
+	],
+	"skills":[],
+	"experience":[],
+	"contact":[
+		"static/image/s_blog.svg",
+		"static/image/s_sf.svg",
+		"static/image/s_github.svg",
+		"static/image/s_zh.svg",
+		"static/image/s_wb.svg"
+	]
+}

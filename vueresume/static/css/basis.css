@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: .16rem;
+}
+html{
+	font-size: 625%;
+}
+h1{
+	font-size: .32rem; 
+}
+h2{
+	font-size: .24rem;
+}
+h3{
+	font-size: .192rem;
+}
+h4{
+	font-size: .16rem;
+}
+h5{
+	font-size: .14rem;
+}
+h6{
+	font-size: .12rem;
+}
+a,a:hover,a:focus{
+	text-decoration: none;
+	color: #FE7F17;
+}
+a{
+	color: blue;
+}
+ul{
+	list-style-type: none;
+}
+@media screen and (max-width: 760px){
+	html{
+		font-size: 550%;
+	}
+}
+@media screen and (max-width: 480px){
+	html{
+		font-size: 469%;
+	}
+}
