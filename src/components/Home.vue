@@ -7,8 +7,9 @@
 			<div class="home-headerinfo">
 				<p ref="mymotto" class="mymotto">{{mymotto}}</p>
 				<p ref="myname">{{myname}}</p>
-				<p ref="myage">{{myage}}</p>
 				<p ref="myprofession">{{myprofession}}</p>
+				<p ref="introduce">{{introduce}}</p>
+				<p ref="contactMe">{{contactMe}}</p>
 				<p ref="myemail">{{myemail}}</p>
 			</div>
 		</div>
@@ -27,8 +28,9 @@
 				myData: {},
 				mymotto: '',
 				myname: '',
-				myage: '',
 				myprofession: '',
+				introduce: '',
+				contactMe: '',
 				myemail: ''
 			}
 		},
@@ -54,12 +56,13 @@
 				}
 				this.mymotto = this.myData.mymotto;
 				this.myname = this.myData.myname;
-				this.myage = this.myData.myage;
 				this.myprofession = this.myData.myprofession;
+				this.introduce = this.myData.introduce;
+				this.contactMe = this.myData.contactMe;
 				this.myemail = this.myData.myemail;
 			},
-			dalayShow(){			
-				let elArr = [this.$refs.mymotto,this.$refs.mymotto, this.$refs.myname, this.$refs.myage, this.$refs.myprofession, this.$refs.myemail];
+			dalayShow(){
+				let elArr = [this.$refs.mymotto,this.$refs.mymotto, this.$refs.myname, this.$refs.myprofession, this.$refs.introduce, this.$refs.contactMe,  this.$refs.myemail];
 				let i = 1;
 				//以下为只加载动画一次
 				let isOpen = sessionStorage.getItem('isOpen');

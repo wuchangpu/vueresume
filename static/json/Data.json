@@ -10,17 +10,16 @@
 		"pageOne": {
 			"mymotto": "生活是一种绵延不绝的渴望,渴望不断上升,变得更伟大而高贵",
 			"myname": "我叫吴长谱",
-			"myage": "28岁",
 			"myprofession": "一名前端研发工程师",
-			"myemail": "wcpgryx@163.com",
-			"introduce": "您好，我叫吴长谱，28岁，坐标武汉。 我并不是计算机专业,但对前端很感兴趣，所以自学前端，今后的职业规划是朝着全栈发展。 在工作的这一年多以来,本人在公司主要负责整个页面的前端开发，配合后台人员实现产品前端界面效果与功能。"
+			"introduce": "我并不是计算机专业，但对前端很感兴趣，所以自学前端，来到这个充满激情的世界。",
+			"contactMe": "联系我",
+			"myemail": "wcpgryx@163.com"
 		},
 		"pageTwo": {
 			"title": "关于我",
 			"imgAlt": ["education", "age", "location", "status"],
 			"itemContent": [
 				"学历 / 大专",
-				"年龄 / 28",
 				"坐标 / 武汉",
 				"状态 / 离职"
 			],
@@ -34,8 +33,8 @@
 		"pageThree": {
 			"title": "技能栈",
 			"skillGroupIn": ["HTML5","CSS3","JS"],
-			"skillGroupOut": ["es6","vue","sass","webpack","bootstrap","angular1"],
-			"paragraphOne": "熟悉Vue框架，vue-cli、vuex、vue-router等",
+			"skillGroupOut": ["es6+","vue","sass","webpack","applets","angular5"],
+			"paragraphOne": "熟悉Vue生态，vue-cli、vue-router、vuex等",
 			"paragraphTwo": "前端的学习需要持之以恒，知识深度与广度",
 			"paragraphThree": "重中之重就是原生javascript的理解",
 			"paragraphFour": "如今的思路必需有模块化，组件化，工程化"
@@ -44,30 +43,39 @@
 			"title": "经历",
 			"item": [
 				{
+					"title": "武汉千仓科技有限公司-吉及鲜（濒临倒闭）",
+					"time": "2019年8月~2019年12月",
+					"describe": [
+						"主要负责ERP后台管理系统开发",
+						"前端页面开发、项目搭建，公共组件、方法封装",
+						"前端性能优化等"
+					]
+				},
+				{
+					"title": "武汉微品致远信息科技有限公司",
+					"time": "2018年5月~2019年8月",
+					"describe": [
+						"前端页面开发，静态页面，js交互，数据请求等",
+						"后台管理系统、前台网站、app混合开发、小程序开发等",
+						"帮助其他同事解决技术问题",
+						"前端项目搭建，公共组件、方法封装，优化，升级",
+						"前端性能优化"
+					]
+				},
+				{
 					"title": "武汉神灯财富网络科技有限公司",
-					"time": "2017年9月~2018年4月",
+					"time": "2016年3月~2018年4月",
 					"describe": [
 						"公司过往项目的维护",
 						"配合后端与UI完成新项目开发",
 						"项目主要为公司网站以及内部员工系统",
 						"依领导安排完成其他任务",
-						"同期工作之余开始系统性的自学web前端各项技术"
-					]
-				},
-				{
-					"title": "芜湖中海网络技术有限公司",
-					"time": "22017年3月~2017年8月",
-					"describe": [
-						"实习阶段",
-						"负责前端静态页面制作",
-						"简单的js交互",
-						"ps切图",
-						"利用HTML、CSS、JS书写前端功能"
+						"同期工作之余，系统性的自学web前端各项技术"
 					]
 				},
 				{
 					"title": "安徽美芝精密制造有限公司",
-					"time": "2011年7月~2017年2月",
+					"time": "2011年7月~2016年2月",
 					"describe": [
 						"(非IT行业)",
 						"生产车间自动化设备日点检、保养抽查",
@@ -113,8 +121,9 @@
 		"pageOne": {
 			"mymotto": "Life is an endless longing, longing for ever-increasing, greater and noble",
 			"myname": "My name is Wuchangpu",
-			"myage": "28 years old ",
 			"myprofession": "A front-end engineer",
+			"introduce": "I'm not a computer major, but I'm very interested in the front end, so I taught myself the front end and came to this passionate world",
+			"contactMe": "contact me",
 			"myemail": "wcpgryx@163.com"
 		},
 		"pageTwo": {
@@ -122,7 +131,6 @@
 			"imgAlt": ["education", "age", "location", "status"],
 			"itemContent": [
 				"Edu / academy",
-				"Age / 28",
 				"Location / wuhan",
 				"Status / leave"
 			],
@@ -136,8 +144,8 @@
 		"pageThree": {
 			"title": "Skills",
 			"skillGroupIn": ["HTML5","CSS3","JS"],
-			"skillGroupOut": ["es6","vue","sass","webpack","bootstrap","angular1"],
-			"paragraphOne": "Familiar with Vue framework, vue-cli, vuex, vue-router etc",
+			"skillGroupOut": ["es6+","vue","sass","webpack","applets","angular5"],
+			"paragraphOne": "Familiar with Vue ecology, vue-cli, vue-router, vuex etc",
 			"paragraphTwo": "Front-end learning needs perseverance, knowledge depth and breadth",
 			"paragraphThree": "The most important thing is the understanding of native javascript",
 			"paragraphFour": "Today's ideas must be modular, componentized and engineered"
@@ -146,30 +154,39 @@
 			"title": "EXPERIENCE",
 			"item": [
 				{
+					"title": "Wuhan QianCang Technology Co., Ltd - JiJiXian(verge of bankruptcy)",
+					"time": "2019/8~2019/12",
+					"describe": [
+						"Mainly responsible for the development of ERP back-management system",
+						"Front-end page development, project construction, public components, method packaging",
+						"Front-end performance optimization, etc."
+					]
+				},
+				{
+					"title": "Wuhan Weipin Zhiyuan Information Technology Co., Ltd.",
+					"time": "2018/5~2019/8",
+					"describe": [
+						"Front-end page development, static pages, js interaction, data requests, etc.",
+						"Back-end management system, front-end website, app mixed development, applet development, etc.",
+						"Help other colleagues solve technical problems",
+						"Front-end project construction, public components, method packaging, optimization, upgrade",
+						"Front-end performance optimization"
+					]
+				},
+				{
 					"title": "Wuhan Shendeng wealth Network Technology Co., Ltd",
-					"time": "2017/9~2018/4",
+					"time": "2016/3~2018/4",
 					"describe": [
 						"Maintenance of the company's past projects",
 						"Complete the development of new project with back end and UI",
 						"The project is mainly for company website and internal staff system",
 						"Completing other tasks according to the leadership",
-						"After the same period of work, systematic self-learning web front-end technology has begun"
-					]
-				},
-				{
-					"title": "Wuhu Zhonghai Network Technology Co., Ltd",
-					"time": "22017/3~2017/8",
-					"describe": [
-						"Internship stage",
-						"Responsible for front-end static page making",
-						"PS cut diagram",
-						"Simple JS interaction",
-						"Writing front-end functions with HTML, CSS, and JS"
+						"During the same period of work, a systematic self-learning web front-end technology"
 					]
 				},
 				{
 					"title": "Anhui Meizhi Precision Manufacturing Co., Ltd",
-					"time": "2011/7~2017/2",
+					"time": "2011/7~2016/2",
 					"describe": [
 						"(Non IT industry)",
 						"Production workshop automation equipment daily check and Maintenance spot check",

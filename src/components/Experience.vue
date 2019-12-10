@@ -14,21 +14,21 @@
 						<h2 v-cloak>{{item[0].title}}</h2>
 						<p v-cloak>{{item[0].time}}</p>
 						<ul>
-							<li v-cloak v-for="(v,i) in item[0].describe">{{v}}</li>
+							<li v-cloak v-for="(v,i) in item[0].describe" :key="i">{{v}}</li>
 						</ul>
 					</div>
 					<div class="item">
 						<h2 v-cloak>{{item[1].title}}</h2>
 						<p v-cloak>{{item[1].time}}</p>
 						<ul>
-							<li v-cloak v-for="(v,i) in item[1].describe">{{v}}</li>
+							<li v-cloak v-for="(v,i) in item[1].describe" :key="i">{{v}}</li>
 						</ul>
 					</div>
 					<div class="item">
 						<h2 v-cloak>{{item[2].title}}</h2>
 						<p v-cloak>{{item[2].time}}</p>
 						<ul v-cloak>
-							<li v-cloak v-for="(v,i) in item[2].describe">{{v}}</li>
+							<li v-cloak v-for="(v,i) in item[2].describe" :key="i">{{v}}</li>
 						</ul>
 					</div>
 				</div>
@@ -190,6 +190,7 @@
 			.carousel-inner{
 				margin: 0 auto;
 				width: 70%;
+				height: 200px;
 				.item{
 					p{
 						font-size: .14rem;

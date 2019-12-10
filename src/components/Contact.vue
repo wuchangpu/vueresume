@@ -12,7 +12,7 @@
 				<div class="paragraphs">
 					<p v-for="(v,i) in paragraphs" :key="i">{{v}}</p>
 				</div>
-				<ul class="interrelated">
+				<!-- <ul class="interrelated">
 					<li v-for="(v,i) in interrelatedSrc" :key="i" :title="imgAlt[i]" data-toggle="modal" data-target="#myModal">
 						<img :src="v" :alt="imgAlt[i]">
 					</li>
@@ -35,7 +35,7 @@
 							</div>
 						</div>
 					</div>
-				</ul>
+				</ul> -->
 			</div>
 		</div>
 		<footer class="footer">

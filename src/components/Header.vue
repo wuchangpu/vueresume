@@ -138,7 +138,7 @@
 			color: #333;
 			z-index: 6666;
 			.logo{
-				float: left;
+				// float: left;
 				display: inline-block;
 				margin: 0 20px;
 				line-height: 50px;
@@ -153,7 +153,7 @@
 				}
 			}
 			.text{
-				float: left;
+				// float: left;
 				width: 60px;
 				display: inline-block;
 			}
